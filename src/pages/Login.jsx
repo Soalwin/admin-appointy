@@ -12,7 +12,7 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const backendUrl = 'http://127.0.0.1:4000'
+  const backendUrl = 'https://appointy-backend-3xoh.onrender.com'
 
   const { setDToken } = useContext(DoctorContext)
   const { setAToken } = useContext(AdminContext)
